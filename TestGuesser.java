@@ -7,6 +7,12 @@ public class TestGuesser {
 			System.out.println(g1);
 
 
-	}
+	
 
-}
+
+
+String s = null;
+if(s.equals("Barcelona")){
+  System.out.println("Ay, caramba");
+	}
+}}
