@@ -71,9 +71,9 @@ public class Guesser{
    */
   private String getReply(){
     String reply = null;
-    
+    reply = new Scanner(System.in).nextLine();
  
-    while(!reply.equals ("T")|| !reply.equals ("F")){
+    while(!reply.equals("T") && !reply.equals("F")){
     	  System.out.println("please answer T or F");
     	  reply = new Scanner(System.in).nextLine();
     	  //read line into reply;	
